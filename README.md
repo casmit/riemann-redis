@@ -9,7 +9,7 @@ In riemann.config
 ```clojure
 (load-plugin "redis")
 
- ; See https://github.com/ptaoussanis/carmine/blob/master/src/taoensso/carmine.clj#L21 for config options
+; See https://github.com/ptaoussanis/carmine/blob/master/src/taoensso/carmine.clj#L21 for options
 (def redis-config {})
 
 (let [index (index)]
