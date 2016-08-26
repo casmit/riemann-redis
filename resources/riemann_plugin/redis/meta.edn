@@ -1,0 +1,6 @@
+{
+  :plugin "redis"
+  :title "A simple wrapper for taoensso/carmine to publish events to redis"
+  :git-repo "https://github.com/casmit/riemann-redis"
+  :require riemann-redis.core
+}
