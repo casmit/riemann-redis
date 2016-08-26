@@ -9,7 +9,7 @@ In riemann.config
 ```clojure
 (load-plugin "redis")
 
-(def redis-config {}) ; See [taoensso/carmine](https://github.com/ptaoussanis/carmine/blob/master/src/taoensso/carmine.clj#L21) for config options
+(def redis-config {}) ; See https://github.com/ptaoussanis/carmine/blob/master/src/taoensso/carmine.clj#L21 for config options
 
 (let [index (index)]
   (streams
